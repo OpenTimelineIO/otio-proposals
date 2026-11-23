@@ -1,0 +1,42 @@
+{
+  "OTIO_SCHEMA": "Transition.2",
+  "name": "Wipe to shot 12",
+  "transition_type": "Custom_Transition",
+  "in_offset": {
+    "OTIO_SCHEMA": "RationalTime.1",
+    "rate": 24,
+    "value": 12
+  },
+  "out_offset": {
+    "OTIO_SCHEMA": "RationalTime.1",
+    "rate": 24,
+    "value": 12
+  },
+  "enabled": true,
+  "metadata": {},
+  "effect": {
+    "OTIO_SCHEMA": "Effect.2",
+    "name": "",
+    "effect_name": "Wipe",
+    "enabled": true,
+    "effect_id": "otio.fx.wipe",
+    "effect_version": "1.0",
+    "host": "",
+    "host_version": "",
+    "context": "transition",
+    "parameters": {
+      "smpte_wipe_code": 1,
+      "angle": 0,
+      "softness": 0,
+      "border_width": 0,
+      "border_color": {
+        "type": "color",
+        "red": 0,
+        "green": 0,
+        "blue": 0
+      },
+      "reverse": false
+    },
+    "metadata": {}
+  }
+}

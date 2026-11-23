@@ -1,0 +1,34 @@
+{
+  "OTIO_SCHEMA": "Effect.2",
+  "name": "pip",
+  "effect_name": "Picture-in-Picture",
+  "enabled": true,
+  "effect_id": "otio.fx.transform_2d",
+  "effect_version": "1.0",
+  "host": "Media Composer",
+  "host_version": "2025.12",
+  "context": "filter",
+  "parameters": {
+    "position": {
+      "type": "2D XY",
+      "x": -1.29,
+      "y": 0.78
+    },
+    "anchor": {
+      "type": "2D XY",
+      "x": 0,
+      "y": 0
+    },
+    "scale_x": 73,
+    "scale_y": 73,
+    "rotation": 37
+  },
+  "metadata": {
+    "otio.fx": {
+      "fidelity": "exact"
+    },
+    "AAF": {
+      "example_note": "An adapter would preserve the original OperationGroup here."
+    }
+  }
+}
