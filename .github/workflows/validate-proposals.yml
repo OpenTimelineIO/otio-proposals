@@ -1,0 +1,19 @@
+# SPDX-License-Identifier: Apache-2.0
+name: Validate proposals
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@08eba0b27e820071cde6df949e0beb9ba4906955 # v4.3.0
+        with:
+          persist-credentials: false
+      - run: python3 tools/check_proposals.py
