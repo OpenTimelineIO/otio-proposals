@@ -1,0 +1,375 @@
+{
+  "OTIO_SCHEMA": "Timeline.1",
+  "name": "Two-angle edit",
+  "metadata": {},
+  "global_start_time": null,
+  "tracks": {
+    "OTIO_SCHEMA": "Stack.1",
+    "name": "Tracks",
+    "metadata": {},
+    "source_range": null,
+    "effects": [],
+    "markers": [],
+    "enabled": true,
+    "color": null,
+    "children": [
+      {
+        "OTIO_SCHEMA": "Track.1",
+        "name": "Picture",
+        "metadata": {},
+        "source_range": null,
+        "effects": [],
+        "markers": [],
+        "enabled": true,
+        "color": null,
+        "kind": "Video",
+        "children": [
+          {
+            "OTIO_SCHEMA": "MulticamClip.1",
+            "name": "A",
+            "metadata": {},
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {"OTIO_SCHEMA": "RationalTime.1", "rate": 24, "value": 0},
+              "duration": {"OTIO_SCHEMA": "RationalTime.1", "rate": 24, "value": 24}
+            },
+            "effects": [],
+            "markers": [],
+            "enabled": true,
+            "color": null,
+            "multicam": "sync",
+            "angle": "A",
+            "angle_track": 0
+          },
+          {
+            "OTIO_SCHEMA": "MulticamClip.1",
+            "name": "B",
+            "metadata": {},
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {"OTIO_SCHEMA": "RationalTime.1", "rate": 24, "value": 24},
+              "duration": {"OTIO_SCHEMA": "RationalTime.1", "rate": 24, "value": 24}
+            },
+            "effects": [],
+            "markers": [],
+            "enabled": true,
+            "color": null,
+            "multicam": "sync",
+            "angle": "B",
+            "angle_track": 0
+          }
+        ]
+      },
+      {
+        "OTIO_SCHEMA": "Track.1",
+        "name": "Sound",
+        "metadata": {},
+        "source_range": null,
+        "effects": [],
+        "markers": [],
+        "enabled": true,
+        "color": null,
+        "kind": "Audio",
+        "children": [
+          {
+            "OTIO_SCHEMA": "MulticamClip.1",
+            "name": "A",
+            "metadata": {},
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {"OTIO_SCHEMA": "RationalTime.1", "rate": 24, "value": 0},
+              "duration": {"OTIO_SCHEMA": "RationalTime.1", "rate": 24, "value": 20}
+            },
+            "effects": [],
+            "markers": [],
+            "enabled": true,
+            "color": null,
+            "multicam": "sync",
+            "angle": "A",
+            "angle_track": 1
+          },
+          {
+            "OTIO_SCHEMA": "MulticamClip.1",
+            "name": "B",
+            "metadata": {},
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {"OTIO_SCHEMA": "RationalTime.1", "rate": 24, "value": 20},
+              "duration": {"OTIO_SCHEMA": "RationalTime.1", "rate": 24, "value": 28}
+            },
+            "effects": [],
+            "markers": [],
+            "enabled": true,
+            "color": null,
+            "multicam": "sync",
+            "angle": "B",
+            "angle_track": 0
+          }
+        ]
+      }
+    ]
+  },
+  "multicams": {
+    "sync": {
+      "OTIO_SCHEMA": "Multicam.1",
+      "name": "Synced angles",
+      "metadata": {},
+      "source_range": null,
+      "effects": [],
+      "markers": [],
+      "enabled": true,
+      "color": null,
+      "global_start_time": {"OTIO_SCHEMA": "RationalTime.1", "rate": 24, "value": 86400},
+      "children": [
+        {
+          "OTIO_SCHEMA": "Stack.1",
+          "name": "A",
+          "metadata": {},
+          "source_range": null,
+          "effects": [],
+          "markers": [],
+          "enabled": true,
+          "color": null,
+          "children": [
+            {
+              "OTIO_SCHEMA": "Track.1",
+              "name": "A video",
+              "metadata": {},
+              "source_range": null,
+              "effects": [],
+              "markers": [],
+              "enabled": true,
+              "color": null,
+              "kind": "Video",
+              "children": [
+                {
+                  "OTIO_SCHEMA": "Clip.2",
+                  "name": "a-video",
+                  "metadata": {},
+                  "source_range": {
+                    "OTIO_SCHEMA": "TimeRange.1",
+                    "start_time": {"OTIO_SCHEMA": "RationalTime.1", "rate": 24, "value": 0},
+                    "duration": {"OTIO_SCHEMA": "RationalTime.1", "rate": 24, "value": 64}
+                  },
+                  "effects": [],
+                  "markers": [],
+                  "enabled": true,
+                  "color": null,
+                  "media_references": {
+                    "DEFAULT_MEDIA": {
+                      "OTIO_SCHEMA": "ExternalReference.1",
+                      "name": "",
+                      "metadata": {},
+                      "available_range": {
+                        "OTIO_SCHEMA": "TimeRange.1",
+                        "start_time": {"OTIO_SCHEMA": "RationalTime.1", "rate": 24, "value": 0},
+                        "duration": {"OTIO_SCHEMA": "RationalTime.1", "rate": 24, "value": 200}
+                      },
+                      "available_image_bounds": null,
+                      "target_url": "a-video.mov"
+                    }
+                  },
+                  "active_media_reference_key": "DEFAULT_MEDIA"
+                }
+              ]
+            },
+            {
+              "OTIO_SCHEMA": "Track.1",
+              "name": "A audio 1",
+              "metadata": {},
+              "source_range": null,
+              "effects": [],
+              "markers": [],
+              "enabled": true,
+              "color": null,
+              "kind": "Audio",
+              "children": [
+                {
+                  "OTIO_SCHEMA": "Clip.2",
+                  "name": "a-audio-1",
+                  "metadata": {},
+                  "source_range": {
+                    "OTIO_SCHEMA": "TimeRange.1",
+                    "start_time": {"OTIO_SCHEMA": "RationalTime.1", "rate": 24, "value": 0},
+                    "duration": {"OTIO_SCHEMA": "RationalTime.1", "rate": 24, "value": 64}
+                  },
+                  "effects": [],
+                  "markers": [],
+                  "enabled": true,
+                  "color": null,
+                  "media_references": {
+                    "DEFAULT_MEDIA": {
+                      "OTIO_SCHEMA": "ExternalReference.1",
+                      "name": "",
+                      "metadata": {},
+                      "available_range": {
+                        "OTIO_SCHEMA": "TimeRange.1",
+                        "start_time": {"OTIO_SCHEMA": "RationalTime.1", "rate": 24, "value": 0},
+                        "duration": {"OTIO_SCHEMA": "RationalTime.1", "rate": 24, "value": 200}
+                      },
+                      "available_image_bounds": null,
+                      "target_url": "a-audio-1.mov"
+                    }
+                  },
+                  "active_media_reference_key": "DEFAULT_MEDIA"
+                }
+              ]
+            },
+            {
+              "OTIO_SCHEMA": "Track.1",
+              "name": "A audio 2",
+              "metadata": {},
+              "source_range": null,
+              "effects": [],
+              "markers": [],
+              "enabled": true,
+              "color": null,
+              "kind": "Audio",
+              "children": [
+                {
+                  "OTIO_SCHEMA": "Clip.2",
+                  "name": "a-audio-2",
+                  "metadata": {},
+                  "source_range": {
+                    "OTIO_SCHEMA": "TimeRange.1",
+                    "start_time": {"OTIO_SCHEMA": "RationalTime.1", "rate": 24, "value": 0},
+                    "duration": {"OTIO_SCHEMA": "RationalTime.1", "rate": 24, "value": 64}
+                  },
+                  "effects": [],
+                  "markers": [],
+                  "enabled": true,
+                  "color": null,
+                  "media_references": {
+                    "DEFAULT_MEDIA": {
+                      "OTIO_SCHEMA": "ExternalReference.1",
+                      "name": "",
+                      "metadata": {},
+                      "available_range": {
+                        "OTIO_SCHEMA": "TimeRange.1",
+                        "start_time": {"OTIO_SCHEMA": "RationalTime.1", "rate": 24, "value": 0},
+                        "duration": {"OTIO_SCHEMA": "RationalTime.1", "rate": 24, "value": 200}
+                      },
+                      "available_image_bounds": null,
+                      "target_url": "a-audio-2.mov"
+                    }
+                  },
+                  "active_media_reference_key": "DEFAULT_MEDIA"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "OTIO_SCHEMA": "Stack.1",
+          "name": "B",
+          "metadata": {},
+          "source_range": null,
+          "effects": [],
+          "markers": [],
+          "enabled": true,
+          "color": null,
+          "children": [
+            {
+              "OTIO_SCHEMA": "Track.1",
+              "name": "B video",
+              "metadata": {},
+              "source_range": null,
+              "effects": [],
+              "markers": [],
+              "enabled": true,
+              "color": null,
+              "kind": "Video",
+              "children": [
+                {
+                  "OTIO_SCHEMA": "Gap.1",
+                  "name": "Sync lead-in",
+                  "metadata": {},
+                  "source_range": {
+                    "OTIO_SCHEMA": "TimeRange.1",
+                    "start_time": {"OTIO_SCHEMA": "RationalTime.1", "rate": 24, "value": 0},
+                    "duration": {"OTIO_SCHEMA": "RationalTime.1", "rate": 24, "value": 8}
+                  },
+                  "effects": [],
+                  "markers": [],
+                  "enabled": true,
+                  "color": null
+                },
+                {
+                  "OTIO_SCHEMA": "Clip.2",
+                  "name": "b-video",
+                  "metadata": {},
+                  "source_range": {
+                    "OTIO_SCHEMA": "TimeRange.1",
+                    "start_time": {"OTIO_SCHEMA": "RationalTime.1", "rate": 24, "value": 100},
+                    "duration": {"OTIO_SCHEMA": "RationalTime.1", "rate": 24, "value": 56}
+                  },
+                  "effects": [],
+                  "markers": [],
+                  "enabled": true,
+                  "color": null,
+                  "media_references": {
+                    "DEFAULT_MEDIA": {
+                      "OTIO_SCHEMA": "ExternalReference.1",
+                      "name": "",
+                      "metadata": {},
+                      "available_range": {
+                        "OTIO_SCHEMA": "TimeRange.1",
+                        "start_time": {"OTIO_SCHEMA": "RationalTime.1", "rate": 24, "value": 0},
+                        "duration": {"OTIO_SCHEMA": "RationalTime.1", "rate": 24, "value": 200}
+                      },
+                      "available_image_bounds": null,
+                      "target_url": "b-video.mov"
+                    }
+                  },
+                  "active_media_reference_key": "DEFAULT_MEDIA"
+                }
+              ]
+            },
+            {
+              "OTIO_SCHEMA": "Track.1",
+              "name": "B audio 1",
+              "metadata": {},
+              "source_range": null,
+              "effects": [],
+              "markers": [],
+              "enabled": true,
+              "color": null,
+              "kind": "Audio",
+              "children": [
+                {
+                  "OTIO_SCHEMA": "Clip.2",
+                  "name": "b-audio-1",
+                  "metadata": {},
+                  "source_range": {
+                    "OTIO_SCHEMA": "TimeRange.1",
+                    "start_time": {"OTIO_SCHEMA": "RationalTime.1", "rate": 24, "value": 0},
+                    "duration": {"OTIO_SCHEMA": "RationalTime.1", "rate": 24, "value": 64}
+                  },
+                  "effects": [],
+                  "markers": [],
+                  "enabled": true,
+                  "color": null,
+                  "media_references": {
+                    "DEFAULT_MEDIA": {
+                      "OTIO_SCHEMA": "ExternalReference.1",
+                      "name": "",
+                      "metadata": {},
+                      "available_range": {
+                        "OTIO_SCHEMA": "TimeRange.1",
+                        "start_time": {"OTIO_SCHEMA": "RationalTime.1", "rate": 24, "value": 0},
+                        "duration": {"OTIO_SCHEMA": "RationalTime.1", "rate": 24, "value": 200}
+                      },
+                      "available_image_bounds": null,
+                      "target_url": "b-audio-1.mov"
+                    }
+                  },
+                  "active_media_reference_key": "DEFAULT_MEDIA"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
